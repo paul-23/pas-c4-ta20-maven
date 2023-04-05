@@ -1,4 +1,4 @@
-package pas.ta20_c4_ejericicio02;
+package pas.ta20_c4_ejercicio02;
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;

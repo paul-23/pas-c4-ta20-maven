@@ -1,4 +1,4 @@
-package pas.ta20_c4_ejericicio02;
+package pas.ta20_c4_ejercicio02;
 
 public class App {
 	public static void main(String[] args) {
