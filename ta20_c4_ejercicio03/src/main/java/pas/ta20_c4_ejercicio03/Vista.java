@@ -40,7 +40,7 @@ public class Vista extends JFrame {
 
 		setTitle("Ventana con más interacción");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 489, 220);
+		setBounds(100, 100, 541, 220);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 
@@ -50,16 +50,16 @@ public class Vista extends JFrame {
 		lblNewLabel = new JLabel("Pulsa un botón");
 		lblNewLabel.setHorizontalAlignment(SwingConstants.CENTER);
 		lblNewLabel.setFont(new Font("Arial", Font.PLAIN, 23));
-		lblNewLabel.setBounds(10, 25, 455, 60);
+		lblNewLabel.setBounds(36, 25, 455, 60);
 		contentPane.add(lblNewLabel);
 
 		btn1 = new JButton("Botón 1");
-		btn1.setBounds(89, 82, 147, 42);
+		btn1.setBounds(112, 80, 147, 42);
 		contentPane.add(btn1);
 		btn1.addActionListener(al);
 
 		btn2 = new JButton("Botón 2");
-		btn2.setBounds(243, 82, 147, 42);
+		btn2.setBounds(266, 80, 147, 42);
 		contentPane.add(btn2);
 		btn2.addActionListener(al);
 
